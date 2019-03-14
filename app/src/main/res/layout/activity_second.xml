@@ -5,22 +5,20 @@
     android:orientation="vertical">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:text="Nilai yang ingin dikirimkan"
-        android:textSize="20sp" />
-
-    <EditText
-        android:id="@+id/main_edittext_nilai_yang_dikirim"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp" />
-
-    <Button
-        android:id="@+id/main_button_second_activity"
+        android:id="@+id/main_textview_nilai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Kirim" />
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/main_button_lihat_link_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buka Alamat URL"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        />
 </LinearLayout>
